@@ -18,7 +18,8 @@ const HomePage = () => {
   };
 
   const slides = [
-    { image: "../public/images/first-slide.jpg", link: "/shopping" },
+    { image: "../public/images/first-slide.jpg", link: "/shop" },
+
     { image: "../public/images/female-slide.jpg", link: "/puppi" },
     { image: "../public/images/man-slide.jpg", link: "/pucci" },
   ];

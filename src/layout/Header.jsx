@@ -22,6 +22,9 @@ const Header = () => {
         <Link to="/pucci" className="text-[#F2D7A7] hover:text-white transition">
           For Pucci
         </Link>
+        <Link to="/shop" className="text-[#F2D7A7] hover:text-white transition">
+          Best of Both
+        </Link>
         <Link to="/puppi" className="text-[#F2D7A7] hover:text-white transition">
           For Puppi
         </Link>

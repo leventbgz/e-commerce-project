@@ -3,6 +3,7 @@ import Header from './layout/Header';
 import HomePage from './pages/HomePage';
 import FemaleProductsPage from './pages/FemaleProductsPage';
 import MaleProductsPage from './pages/MaleProductsPage';
+import ShopPage from './pages/ShopPage'; // Import ShopPage
 import Footer from './layout/Footer';
 import PageContent from './layout/PageContent';
 
@@ -14,6 +15,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <HomePage />
+          </Route>
+          <Route path="/shop" >
+            <ShopPage />
           </Route>
           <Route path="/puppi">
             <FemaleProductsPage />

@@ -3,10 +3,10 @@ import ProductCard from "../components/ProductCard";
 
 const MaleProductsPage = () => {
     const products = [
-        { id: 1, name: "Product 1", price: 29.99, image: "path/to/image1.jpg" },
-        { id: 2, name: "Product 2", price: 39.99, image: "path/to/image2.jpg" },
-        { id: 3, name: "Product 3", price: 49.99, image: "path/to/image3.jpg" },
-        { id: 4, name: "Product 4", price: 59.99, image: "path/to/image4.jpg" },
+        { id: 1, name: "Product 1", price: 29.99, image: "path/to/image1.jpg", description: "Description of the Product" },
+        { id: 2, name: "Product 2", price: 39.99, image: "path/to/image2.jpg", description: "Description of the Product" },
+        { id: 3, name: "Product 3", price: 49.99, image: "path/to/image3.jpg", description: "Description of the Product" },
+        { id: 4, name: "Product 4", price: 59.99, image: "path/to/image4.jpg", description: "Description of the Product" },
     ];
 
     return (

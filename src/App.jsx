@@ -3,9 +3,11 @@ import Header from './layout/Header';
 import HomePage from './pages/HomePage';
 import FemaleProductsPage from './pages/FemaleProductsPage';
 import MaleProductsPage from './pages/MaleProductsPage';
-import ShopPage from './pages/ShopPage'; // Import ShopPage
+import ShopPage from './pages/ShopPage';
+import ProductDetailPage from './pages/ProductDetailPage';
 import Footer from './layout/Footer';
 import PageContent from './layout/PageContent';
+
 
 function App() {
   return (
@@ -24,6 +26,9 @@ function App() {
           </Route>
           <Route path="/pucci">
             <MaleProductsPage />
+          </Route>
+          <Route path="/product/:productId">
+            <ProductDetailPage />
           </Route>
         </Switch>
       </PageContent>

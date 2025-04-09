@@ -28,6 +28,9 @@ const Header = () => {
         <Link to="/puppi" className="text-[#F2D7A7] hover:text-white transition">
           For Puppi
         </Link>
+        <Link to="/contact" className="text-[#F2D7A7] hover:text-white transition">
+          Contact Us
+        </Link>
       </nav>
 
       {/* Right Side: Basket */}

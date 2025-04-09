@@ -5,6 +5,7 @@ import FemaleProductsPage from './pages/FemaleProductsPage';
 import MaleProductsPage from './pages/MaleProductsPage';
 import ShopPage from './pages/ShopPage';
 import ProductDetailPage from './pages/ProductDetailPage';
+import ContactPage from './pages/ContactPage';
 import Footer from './layout/Footer';
 import PageContent from './layout/PageContent';
 
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/product/:productId">
             <ProductDetailPage />
+          </Route>
+          <Route path="/contact">
+            <ContactPage />
           </Route>
         </Switch>
       </PageContent>

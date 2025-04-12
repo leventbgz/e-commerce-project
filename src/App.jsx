@@ -6,6 +6,7 @@ import MaleProductsPage from './pages/MaleProductsPage';
 import ShopPage from './pages/ShopPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
+import TeamPage from './pages/TeamPage';
 import Footer from './layout/Footer';
 import PageContent from './layout/PageContent';
 
@@ -33,6 +34,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <ContactPage />
+          </Route>
+          <Route path="/team">
+            <TeamPage />
           </Route>
         </Switch>
       </PageContent>

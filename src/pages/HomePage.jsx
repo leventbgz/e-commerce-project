@@ -33,7 +33,7 @@ const HomePage = () => {
               <img
                 src={slide.image}
                 alt={`Slide ${index + 1}`}
-                className="w-full h-auto rounded-lg shadow-lg"
+                className="w-full max-h-screen object-contain rounded-lg"
               />
             </Link>
           </div>

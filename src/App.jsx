@@ -7,6 +7,7 @@ import ShopPage from './pages/ShopPage';
 import ProductDetailPage from './pages/ProductDetailPage';
 import ContactPage from './pages/ContactPage';
 import TeamPage from './pages/TeamPage';
+import AboutUsPage from './pages/AboutUsPage';
 import Footer from './layout/Footer';
 import PageContent from './layout/PageContent';
 
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/team">
             <TeamPage />
+          </Route>
+          <Route path="/about">
+            <AboutUsPage />
           </Route>
         </Switch>
       </PageContent>

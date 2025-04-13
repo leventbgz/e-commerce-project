@@ -4,10 +4,10 @@ import { Facebook, Instagram, Twitter, Github } from "lucide-react";
 const Footer = () => {
     return (
         <footer className="bg-[#1E1E1E] text-[#E4C590] py-6">
-            <div className="max-w-3xl mx-auto flex flex-col items-center md:flex-row md:justify-between">
+            <div className="max-w-6xl mx-auto flex flex-col items-center md:flex-row md:justify-between">
                 {/* Brand & Copyright */}
                 <div className="text-center md:text-left">
-                    <h2 className="text-lg font-semibold text-white">Pucci&Puppi</h2>
+                    <h2 className="text-lg font-semibold">Pucci&Puppi</h2>
                     <p className="text-sm mt-1">© 2025 Pucci&Puppi. All rights reserved.</p>
                 </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
                         Our Team
                     </Link>
                     <Link to="/contact" className="text-sm hover:text-[#F2D7A7] transition mt-2">
-                        Contact
+                        Contact Us
                     </Link>
                     <Link to="/policy" className="text-sm hover:text-[#F2D7A7] transition mt-2">
                         Privacy Policy
